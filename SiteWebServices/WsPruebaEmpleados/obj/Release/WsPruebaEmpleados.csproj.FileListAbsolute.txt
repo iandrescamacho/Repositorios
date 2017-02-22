@@ -1,0 +1,8 @@
+C:\Repositorios\SiteWebServices\WsPruebaEmpleados\bin\WsPruebaEmpleados.dll.config
+C:\Repositorios\SiteWebServices\WsPruebaEmpleados\bin\WsPruebaEmpleados.dll
+C:\Repositorios\SiteWebServices\WsPruebaEmpleados\bin\WsPruebaEmpleados.pdb
+C:\Repositorios\SiteWebServices\WsPruebaEmpleados\bin\Insignius.Datos.pdb
+C:\Repositorios\SiteWebServices\WsPruebaEmpleados\bin\Insignius.Datos.xml
+C:\Repositorios\SiteWebServices\WsPruebaEmpleados\obj\Release\WsPruebaEmpleados.dll
+C:\Repositorios\SiteWebServices\WsPruebaEmpleados\obj\Release\WsPruebaEmpleados.pdb
+C:\Repositorios\SiteWebServices\WsPruebaEmpleados\obj\Release\WsPruebaEmpleados.csprojResolveAssemblyReference.cache

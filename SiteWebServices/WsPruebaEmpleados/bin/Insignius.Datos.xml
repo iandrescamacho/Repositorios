@@ -1,0 +1,335 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Insignius.Datos</name>
+    </assembly>
+    <members>
+        <member name="T:Dyetron.Sicap.Datos.DatosSQL">
+            <summary>
+            Summary description for DatosSQL.
+            </summary>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.DatosSQL.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.DatosSQL.#ctor(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="CadenaConexion"></param>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.DatosSQL.#ctor(System.String,System.Boolean)">
+            <summary>
+            Sobrecarga Metodo de Conexion Para poder Realizar Conexion a Diferentes Bases
+            </summary>
+            <param name="nombreRegistro">Nombre del Registro en Windows</param>
+            <param name="esPrincipal"></param>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.DatosSQL.Finalize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Dyetron.Sicap.Datos.DatosSQL.CadenaConexion">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Dyetron.Sicap.Datos.DatosSQL.BD">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Dyetron.Sicap.Datos.DatosSQL.Svr">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Dyetron.Sicap.Datos.DatosSQL.Usr">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Dyetron.Sicap.Datos.DatosSQL.Pwd">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.DatosSQL.CargarParametros(System.Data.IDbCommand,System.Data.DataRow)">
+            <summary>
+             Carga los parametros enviando una fila del dataset
+            </summary>
+            <param name="Comando"></param>
+            <param name="ObjRow">fila del dataset</param>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.DatosSQL.CargarParametros(System.Data.IDbCommand,System.Object)">
+            <summary>
+            Carga los parametros enviando el objecto de la clase
+            </summary>
+            <param name="Comando"></param>
+            <param name="ObjExamine">objecto de la clase</param>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.DatosSQL.CargarParametros(System.Data.IDbCommand,System.Object[])">
+            <summary>
+            Carga los parametros del procedimiento enviando un array de objetos
+            </summary>
+            <param name="Comando">objecto de la clase</param>
+            <param name="Args"></param>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.DatosSQL.Comando(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="ProcedimientoAlmacenado">Nombre del procedimiento almacenado</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.DatosSQL.ComandoRemoto(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="ProcedimientoAlmacenado">Nombre del procedimiento almacenado</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.DatosSQL.CrearConexion(System.String)">
+            <summary>
+            Crea la conexión a la base de datos
+            </summary>
+            <param name="Cadena">Cadena de conexión</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.DatosSQL.CrearDataAdapter(System.String,System.Object[])">
+            <summary>
+            Crea el DataAdapter que llena el Dataset
+            </summary>
+            <param name="ProcedimientoAlmacenado">Nombre del procedimiento almacenado</param>
+            <param name="Args">Parametros que se le envian al procedimiento</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.DatosSQL.CrearDataAdapter(System.String,System.Object)">
+            <summary>
+            Crea el DataAdapter que llena el Dataset
+            </summary>
+            <param name="ProcedimientoAlmacenado">Nombre del procedimiento almacenado</param>
+            <param name="ObjExamine">Objeto de la clase</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.DatosSQL.Dispose(System.Boolean)">
+             <summary>
+             Este método se encarga de limpiar y destruir el objeto despues de ser usado
+             </summary>
+             <param name="disposing">Variable Booleana que indica si es TRUE que el metodo fue llamado directa o indirectamente por el usuario
+            , en cambio, si es FALSE es porque fue llamado por el garbage collector</param>
+        </member>
+        <member name="T:Dyetron.Sicap.Datos.gDatos">
+            <summary>
+            Summary description for gDatos.
+            </summary>
+        </member>
+        <member name="F:Dyetron.Sicap.Datos.gDatos.mConexion">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Dyetron.Sicap.Datos.gDatos.mTransaccion">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Dyetron.Sicap.Datos.gDatos.mCadenaConexion">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Dyetron.Sicap.Datos.gDatos.EnTransaccion">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Dyetron.Sicap.Datos.gDatos.ConfigRegistro">
+            <summary>
+            Variable Que carga el config a que apunta la conexion
+            </summary>
+        </member>
+        <member name="P:Dyetron.Sicap.Datos.gDatos.CadenaConexion">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.gDatos.CrearConexion(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="Cadena"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.gDatos.Comando(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="ProcedimientoAlmacenado"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.gDatos.ComandoRemoto(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="ProcedimientoAlmacenado"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.gDatos.CrearDataAdapter(System.String,System.Object[])">
+            <summary>
+            
+            </summary>
+            <param name="ProcedimientoAlmacenado"></param>
+            <param name="Args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.gDatos.CrearDataAdapter(System.String,System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="ProcedimientoAlmacenado"></param>
+            <param name="objExamine"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.gDatos.CargarParametros(System.Data.IDbCommand,System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="Comando"></param>
+            <param name="ObjExamine"></param>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.gDatos.CargarParametros(System.Data.IDbCommand,System.Data.DataRow)">
+            <summary>
+            
+            </summary>
+            <param name="Comando"></param>
+            <param name="ObjRow"></param>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.gDatos.CargarParametros(System.Data.IDbCommand,System.Object[])">
+            <summary>
+            
+            </summary>
+            <param name="Comando"></param>
+            <param name="Args"></param>
+        </member>
+        <member name="P:Dyetron.Sicap.Datos.gDatos.Conexion">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Dyetron.Sicap.Datos.gDatos.Transaccion">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.gDatos.TraerDataSet(System.String,System.Object[])">
+            <summary>
+            Ejecuta un procedimiento almacenado y retorna un dataset
+            </summary>
+            <param name="ProcedimientoAlmacenado">Nombre del procedimiento almacenado</param>
+            <param name="Args">Parametros del procedimiento almacenado</param>
+            <returns>Dataset lleno</returns>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.gDatos.TraerDataSet(System.String,System.Object)">
+            <summary>
+            Ejecuta un procedimiento almacenado y retorna un dataset
+            </summary>
+            <param name="ProcedimientoAlmacenado">Nombre del procedimiento almacenado</param>
+            <param name="objExamine">Objeto de la clase</param>
+            <returns>Dataset lleno</returns>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.gDatos.TraerDataTable(System.String,System.Object[])">
+            <summary>
+            Ejecuta un procedimiento almacenado y retorna un datatable
+            </summary>
+            <param name="ProcedimientoAlmacenado">Nombre del procedimiento almacenado</param>
+            <param name="Args">Parametros del procedimiento almacenado</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.gDatos.Ejecutar(System.String)">
+            <summary>
+            Ejecuta un procedimiento almacenado
+            </summary>
+            <param name="ProcedimientoAlmacenado"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.gDatos.EjecutarRemoto(System.String)">
+            <summary>
+            Ejecuta un procedimiento almacenado
+            </summary>
+            <param name="ProcedimientoAlmacenado"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.gDatos.Ejecutar(System.String,System.Data.DataRow)">
+            <summary>
+            Guardar enviando una fila de un dataset
+            </summary>
+            <param name="ProcedimientoAlmacenado">Nombre del procedimiento</param>
+            <param name="ObjRow">Fila del dataset</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.gDatos.Ejecutar(System.String,System.Object,System.Data.DataTable)">
+            <summary>
+            Este método se encarga de ejecutar el procedimiento almacenado indicado
+            </summary>
+            <param name="ProcedimientoAlmacenado">variable string que contiene el nombre del procedimiento almacenado a ejecutarse</param>
+            <param name="ObjExamine">Objecto padre con valores en propiedades asignables a los parametros del procedimiento almacenado</param>
+            <param name="Dt">Variable de tipo DataTable que contiene los campos con los valores relacionables a los parametros del procedimiento</param>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.gDatos.Ejecutar(System.String,System.Object)">
+            <summary>
+            Ejecuta un procedimiento enviando un objeto
+            </summary>
+            <param name="ProcedimientoAlmacenado"> Nombre del Procedimiento</param>
+            <param name="ObjExamine">Objeto</param>
+            <returns>Si el procedimiento returna un valor </returns>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.gDatos.Ejecutar(System.String,System.Object[])">
+            <summary>
+            Ejecuta un procedimiento enviando en un arreglo los parametros
+            </summary>
+            <param name="ProcedimientoAlmacenado"> Nombre del Procedimiento</param>
+            <param name="Args">Arreglo de Parametros</param>
+            <returns>Si el procedimiento returna un valor </returns>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.gDatos.IniciarTransaccion">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.gDatos.TerminarTransaccion">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.gDatos.AbortarTransaccion">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.gDatos.convertToDataType(System.String,System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="DataType"></param>
+            <param name="ObjectProperties"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.gDatos.Dispose">
+            <summary>
+            Este método se encarga de limpiar y destruir el objeto entidad
+            </summary>
+        </member>
+        <member name="M:Dyetron.Sicap.Datos.gDatos.Dispose(System.Boolean)">
+             <summary>
+             Este método se encarga de limpiar y destruir el objeto entidad
+             </summary>
+             <param name="disposing">Variable Booleana que indica si es TRUE que el metodo fue llamado directa o indirectamente por el usuario
+            , en cambio, si es FALSE es porque fue llamado por el garbage collector
+             </param>
+        </member>
+    </members>
+</doc>

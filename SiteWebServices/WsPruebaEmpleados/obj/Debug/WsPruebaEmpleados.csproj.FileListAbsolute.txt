@@ -1,0 +1,47 @@
+C:\Users\IPARRA\Documents\Visual Studio 2015\Projects\SiteWebServices\WsPruebaEmpleados\bin\WsPruebaEmpleados.dll.config
+C:\Users\IPARRA\Documents\Visual Studio 2015\Projects\SiteWebServices\WsPruebaEmpleados\bin\WsPruebaEmpleados.dll
+C:\Users\IPARRA\Documents\Visual Studio 2015\Projects\SiteWebServices\WsPruebaEmpleados\bin\WsPruebaEmpleados.pdb
+C:\Users\IPARRA\Documents\Visual Studio 2015\Projects\SiteWebServices\WsPruebaEmpleados\bin\Encryption.dll
+C:\Users\IPARRA\Documents\Visual Studio 2015\Projects\SiteWebServices\WsPruebaEmpleados\bin\Insignius.Datos.dll
+C:\Users\IPARRA\Documents\Visual Studio 2015\Projects\SiteWebServices\WsPruebaEmpleados\bin\Insignius.Datos.pdb
+C:\Users\IPARRA\Documents\Visual Studio 2015\Projects\SiteWebServices\WsPruebaEmpleados\bin\Insignius.Datos.xml
+C:\Users\IPARRA\Documents\Visual Studio 2015\Projects\SiteWebServices\WsPruebaEmpleados\obj\Debug\WsPruebaEmpleados.dll
+C:\Users\IPARRA\Documents\Visual Studio 2015\Projects\SiteWebServices\WsPruebaEmpleados\obj\Debug\WsPruebaEmpleados.pdb
+G:\SiteWebServices\WsPruebaEmpleados\bin\WsPruebaEmpleados.dll.config
+G:\SiteWebServices\WsPruebaEmpleados\bin\WsPruebaEmpleados.dll
+G:\SiteWebServices\WsPruebaEmpleados\bin\WsPruebaEmpleados.pdb
+G:\SiteWebServices\WsPruebaEmpleados\obj\Debug\WsPruebaEmpleados.dll
+G:\SiteWebServices\WsPruebaEmpleados\obj\Debug\WsPruebaEmpleados.pdb
+E:\SiteWebServices\WsPruebaEmpleados\bin\WsPruebaEmpleados.dll.config
+E:\SiteWebServices\WsPruebaEmpleados\bin\WsPruebaEmpleados.dll
+E:\SiteWebServices\WsPruebaEmpleados\bin\WsPruebaEmpleados.pdb
+E:\SiteWebServices\WsPruebaEmpleados\bin\Encryption.dll
+E:\SiteWebServices\WsPruebaEmpleados\bin\Insignius.Datos.dll
+E:\SiteWebServices\WsPruebaEmpleados\bin\Insignius.Datos.pdb
+E:\SiteWebServices\WsPruebaEmpleados\bin\Insignius.Datos.xml
+E:\SiteWebServices\WsPruebaEmpleados\obj\Debug\WsPruebaEmpleados.dll
+E:\SiteWebServices\WsPruebaEmpleados\obj\Debug\WsPruebaEmpleados.pdb
+C:\Users\acamacho\Documents\u\SiteWebServices\SiteWebServices\WsPruebaEmpleados\bin\WsPruebaEmpleados.dll.config
+C:\Users\acamacho\Documents\u\SiteWebServices\SiteWebServices\WsPruebaEmpleados\bin\WsPruebaEmpleados.dll
+C:\Users\acamacho\Documents\u\SiteWebServices\SiteWebServices\WsPruebaEmpleados\bin\WsPruebaEmpleados.pdb
+C:\Users\acamacho\Documents\u\SiteWebServices\SiteWebServices\WsPruebaEmpleados\bin\Insignius.Datos.pdb
+C:\Users\acamacho\Documents\u\SiteWebServices\SiteWebServices\WsPruebaEmpleados\bin\Insignius.Datos.xml
+C:\Users\acamacho\Documents\u\SiteWebServices\SiteWebServices\WsPruebaEmpleados\obj\Debug\WsPruebaEmpleados.csprojResolveAssemblyReference.cache
+C:\Users\acamacho\Documents\u\SiteWebServices\SiteWebServices\WsPruebaEmpleados\obj\Debug\WsPruebaEmpleados.dll
+C:\Users\acamacho\Documents\u\SiteWebServices\SiteWebServices\WsPruebaEmpleados\obj\Debug\WsPruebaEmpleados.pdb
+E:\Users\andre\Desktop\Nueva carpeta\SiteWebServices\WsPruebaEmpleados\bin\WsPruebaEmpleados.dll.config
+E:\Users\andre\Desktop\Nueva carpeta\SiteWebServices\WsPruebaEmpleados\bin\WsPruebaEmpleados.dll
+E:\Users\andre\Desktop\Nueva carpeta\SiteWebServices\WsPruebaEmpleados\bin\WsPruebaEmpleados.pdb
+E:\Users\andre\Desktop\Nueva carpeta\SiteWebServices\WsPruebaEmpleados\bin\Insignius.Datos.pdb
+E:\Users\andre\Desktop\Nueva carpeta\SiteWebServices\WsPruebaEmpleados\bin\Insignius.Datos.xml
+E:\Users\andre\Desktop\Nueva carpeta\SiteWebServices\WsPruebaEmpleados\obj\Debug\WsPruebaEmpleados.csprojResolveAssemblyReference.cache
+E:\Users\andre\Desktop\Nueva carpeta\SiteWebServices\WsPruebaEmpleados\obj\Debug\WsPruebaEmpleados.dll
+E:\Users\andre\Desktop\Nueva carpeta\SiteWebServices\WsPruebaEmpleados\obj\Debug\WsPruebaEmpleados.pdb
+C:\Repositorios\SiteWebServices\WsPruebaEmpleados\obj\Debug\WsPruebaEmpleados.dll
+C:\Repositorios\SiteWebServices\WsPruebaEmpleados\obj\Debug\WsPruebaEmpleados.pdb
+C:\Repositorios\SiteWebServices\WsPruebaEmpleados\bin\WsPruebaEmpleados.dll.config
+C:\Repositorios\SiteWebServices\WsPruebaEmpleados\bin\WsPruebaEmpleados.dll
+C:\Repositorios\SiteWebServices\WsPruebaEmpleados\bin\WsPruebaEmpleados.pdb
+C:\Repositorios\SiteWebServices\WsPruebaEmpleados\bin\Insignius.Datos.pdb
+C:\Repositorios\SiteWebServices\WsPruebaEmpleados\bin\Insignius.Datos.xml
+C:\Repositorios\SiteWebServices\WsPruebaEmpleados\obj\Debug\WsPruebaEmpleados.csprojResolveAssemblyReference.cache
